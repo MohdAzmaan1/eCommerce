@@ -23,9 +23,4 @@ public class ProductController {
     public ResponseEntity<String> getMaxPriceProduct(@RequestParam("category") String category) {
         return new ResponseEntity<>(productService.getMaxPriceProduct(category),HttpStatus.OK);
     }
-
-    @GetMapping("/get-most-ordered")
-    public ResponseEntity<String> getMostOrderedProduct(@RequestParam("category") String category) {
-        return new ResponseEntity<>(productService.getMaxPriceProduct(category),HttpStatus.OK);
-    }
 }

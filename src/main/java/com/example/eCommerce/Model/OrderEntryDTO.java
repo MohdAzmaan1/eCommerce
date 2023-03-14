@@ -7,5 +7,4 @@ public class OrderEntryDTO {
 
     private PaymentMode paymentMode;
     private int userId;
-    private int orderId;
 }

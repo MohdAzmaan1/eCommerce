@@ -24,6 +24,5 @@ public class Product {
     private int price;
 
     @ManyToOne
-    @JoinColumn
     private Order order;
 }
